@@ -9,5 +9,7 @@
 >
 ld -T"../link2.ld"
 >
+-#Copy ../ASM/boot2.bin ASM/boot2.bin 
+>
 cat ASM/boot2.bin Kernel.bin >> boot.flp
 >
