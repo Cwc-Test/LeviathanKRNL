@@ -1,0 +1,13 @@
+-#Run ../ASM.cwMake
+>
+-{vFlag}= -ffreestanding -mno-red-zone -m64 
+>
+;Build Cpp
+-c ../Cpp/ -o Cpp/
+-{vIncl}
+-{vFlag}
+>
+ld -T"../link2.ld"
+>
+cat ASM/boot2.bin Kernel.bin >> boot.flp
+>

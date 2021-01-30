@@ -10,7 +10,7 @@ jmp EnterProtectedMode
 %include "ASM/gdt.s"
 %include "ASM/print.s"
 %include "ASM/DetectMemory.s"
-%include "ASM/font.s"
+
 
 EnterProtectedMode:
 	call DetectMemory

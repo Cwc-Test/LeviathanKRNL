@@ -1,4 +1,8 @@
-#include "H/paging.h"
+//#include "H/paging.h"
+
+typedef unsigned long	paddr_t;		/* Physical address */
+typedef unsigned long	vaddr_t;		/* Virtual address */
+
 
 // mmu
 

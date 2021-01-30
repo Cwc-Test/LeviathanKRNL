@@ -1,0 +1,10 @@
+;Register Cwc before using a .cwmake
+>
+-{_wToolchain}= VLianceTool/Elf_RT
+>
+nasm ASM/boot2.s -f bin -o ASM/boot2.bin
+>
+nasm ASM/ExtendedProgram.s -f elf64 -o cwc/ASM/ExtendedProgram.o
+>
+nasm ASM/binaries.s -f elf64 -o cwc/ASM/binaries.o
+>
